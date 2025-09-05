@@ -1,0 +1,175 @@
+* {
+    margin :0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main {
+    display:flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+}
+.bar {
+    height : 42px;
+    width : 100rem;
+    background-color: white;
+}
+.logo {
+    background-image: url("logo.png");
+    width : 18rem;
+    height : 8rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 635px;
+    margin-right : 635px;
+    /* margin-top: 5vh; */
+    /* margin-left: 5rem; */
+    /* margin-right: 50rem; */
+    
+}
+.navbar {
+    display: flex;
+    height : 3rem;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top : 10px;
+    margin-left: 160px;
+    margin-right: 160px;
+    position: sticky;
+    top : 0;
+    background-color: white;
+}
+
+.nav-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1.6rem;
+    padding-right: 25px;
+    padding-bottom: 8px;
+}
+.nav-search-pic {
+    display : flex;
+    width : 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(201, 200, 200);
+    color : rgb(83, 83, 83)
+}
+.nav-search {
+    
+    display: flex;
+    height : 35px;
+    border : 0.5px solid rgb(141, 141, 141);
+}
+.nav-ops {
+    display: flex;
+    justify-content: space-evenly;    
+    align-items:flex-start;
+    /* transition: all 5s ease-in-out 0s; */
+}
+.nav-ops p {
+    padding : 15px;
+    margin-right: 5px;
+    font-size: 13.7px;
+    font-weight: 600;
+    color : rgb(78, 77, 77);
+    /* transition: border-bottom 5s ease-in-out 0.2s; */
+}
+input { 
+    width : 200px;
+}
+.nav-ops p:hover {
+    border-bottom: 2px solid red;
+}
+.people {
+    display : flex;
+    justify-content: flex-start;
+    flex-direction: row;
+
+}
+.vivek {
+    height : 235px;
+    width : 235px;
+    border : 2px solid transparent;
+    border-radius: 25px;
+    background-size: cover;
+    margin-top: 25px;
+}
+.content {
+    margin-left: 140px;
+    margin-right: 140px;
+    display: flex;
+    /* padding-left: 20px; */
+    width : 73%;
+    margin-top: 70px;
+    /* align-self: center; */
+}
+.image {
+    display: flex;
+    flex-direction: column;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 70px; */
+    width : 460px;
+    /* padding-top: 70px; */
+    padding-left: 20px;
+    padding-right: 30px;
+}
+.poster {
+    width : 380px;
+    background-image: url("spotlight.jpg");
+    height : 380px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+}
+.donate {
+    background-color: rgb(247, 246, 246);
+    height : 270px;
+    width : 290px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    justify-content: space-evenly;
+    font-family:sans-serif;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+
+}
+.pallavi {
+    height : 235px;
+    width : 235px;
+    border : 2px solid transparent;
+    border-radius: 25px;
+    background-size: cover;
+    margin-top: 180px;
+}
+.donate-button {
+    padding : 15px;
+    background-color: red;
+    color : white;
+    width : 150px;
+    border : 2px solid transparent;
+    font-size: 15px;
+}
+.donate-button:hover {
+    background-color: blue;
+}
+p {
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.people {
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+}
