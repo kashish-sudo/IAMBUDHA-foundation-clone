@@ -16,7 +16,7 @@ body {
     background-color: white;
 }
 .logo {
-    background-image: url("logo.png");
+    background-image: url("images/logo.png");
     width : 18rem;
     height : 8rem;
     background-size: contain;
@@ -122,7 +122,7 @@ input {
 }
 .poster {
     width : 380px;
-    background-image: url("spotlight.jpg");
+    background-image: url("images/spotlight.jpg");
     height : 380px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -172,4 +172,5 @@ p {
 }
 .people {
     font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+
 }
